@@ -27,16 +27,7 @@ jsr add @samirxpikachu/apis-samir
 import samirapi from "@samirxpikachu/apis-samir";
 
 async function main() {
-  try {
-    // Generate AI response
-    const response = await samirapi.gpt("What is the meaning of life?");
-    console.log("GPT Response:", response);
-
-    // Generate an image
-    const image = await samirapi.imagine("A serene mountain landscape");
-    console.log("Image generated successfully");
-
-    // Get anime details
+  try {   
     const animeInfo = await samirapi.animeDetails("Attack on Titan");
     console.log("Anime Details:", animeInfo);
   } catch (error) {
@@ -175,7 +166,7 @@ We welcome contributions! To contribute:
 
 ## License
 
-This project is licensed under the    Apache License - see the LICENSE file for details.
+This project is licensed under the   [Apache License](./LICENSE) - see the LICENSE file for details.
 
 ## Support
 
