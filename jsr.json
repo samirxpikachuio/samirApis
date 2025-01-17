@@ -1,6 +1,15 @@
 {
     "name": "@samirxpikachu/apis-samir",
-    "version": "0.1.0",
-    "license": "Apache",
-    "exports": "./src/index.ts"
-  }
+    "version": "0.1.3",
+    "exports": "./src/index.ts",
+    "publishConfig": {
+      "provenance": true,
+      "access": "public"
+    },
+    "scripts": {
+      "jsr:publish": "jsr publish"
+    },
+    "devDependencies": {
+     "@jsr/cli": "^1.0.0"
+   }
+}
