@@ -4,7 +4,7 @@ on:
   push:
     branches:
       - main
-  workflow_dispatch: 
+  workflow_dispatch: # Allows manual triggering
 
 jobs:
   publish:
@@ -23,9 +23,6 @@ jobs:
 
       - name: Install dependencies
         run: bun install
-      
-      - name: Configure JSR
-        run: bun x jsr config init -- --no-token 
 
       - name: Publish to JSR
         run: bun x jsr publish
