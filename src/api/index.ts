@@ -6,6 +6,7 @@ import * as services from './services';
 
 
 const samirapi: SamirApi = {
+    //** for the which returns json as response  .-.*/
     fetchJson: (endpoint, params, isPathParam = false, method = 'GET', data = null) => {
         if (isPathParam) {
             endpoint = replacePathParam(endpoint, params);
@@ -13,6 +14,7 @@ const samirapi: SamirApi = {
         }
         return makeRequest(endpoint, method === 'GET' ? params : data, method);
     },
+      //** for the which returns image/binary data as response  .-.*/
     fetchBinary: (endpoint, params, isPathParam = false, method = 'GET', data = null) => {
          if (isPathParam) {
             endpoint = replacePathParam(endpoint, params);
