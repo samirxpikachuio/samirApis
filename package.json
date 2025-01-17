@@ -3,11 +3,10 @@
     "url": "^0.11.4"
   },
   "devDependencies": {
-    "@types/node": "^22.10.7",
-    "@jsr/cli": "^1.0.0"
+    "@types/node": "^22.10.7"
   },
   "scripts": {
-      "jsr:publish": "jsr publish"
+      "jsr:publish": "npx jsr publish"
   },
   "exports": "./src/index.ts",
   "publishConfig": {
