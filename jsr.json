@@ -5,5 +5,5 @@
     "publishConfig": {
       "provenance": true,
       "access": "public"
-    },
+    }
 }

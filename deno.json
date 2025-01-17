@@ -8,8 +8,5 @@
     },
     "scripts": {
       "jsr:publish": "jsr publish"
-    },
-    "devDependencies": {
-     "@jsr/cli": "^1.0.0"
-   }
+    }
 }
