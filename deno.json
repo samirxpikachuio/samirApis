@@ -1,0 +1,6 @@
+  {
+    "name": "@samirxpikachu/apis-samir",
+    "version": "0.1.0",
+    "license": "Apache",
+    "exports": "./src/index.ts"
+  }
